@@ -1,0 +1,155 @@
+body {
+	padding:0px;
+	margin:0px;
+	border:0px;
+
+}
+#header{
+	position:relative;
+	min-height:139px;
+	z-index:-1;
+
+}
+.siteHeadDiv {
+	position:absolute;
+	padding: 0px;
+	margin: 0px;
+	border:0px;
+	min-width:100%;
+	min-height:112px; 
+	background-color: #40e0d0;
+}
+
+#siteIcon {
+	float:left;
+	margin:0px;
+	padding:0px;
+	position:absolute;
+	left:0;
+	height:112px;
+	width:120px;
+}
+#headerTitle{
+	position:absolute;
+	margin: 0px 0px 5px 5px;
+	padding:0px 5px 5px 10px;
+	left:125px;
+	top:0px;
+	
+}
+
+#headerTitle h1{
+	font: 2.5em "Tahoma", "Lucida Grande";
+	letter-spacing:0.5em;
+	color:white;
+	font-weight: bold;
+	text-shadow: 3px 3px 1px #E6FFFF;
+}
+
+
+#headerDesc {
+	position:absolute;
+	left:800px;
+	top:75px;
+	border:0;
+	padding:0;
+  }
+	
+#headerDesc p{
+	height:18px;
+	font: 1em "Lucida Grande","Tahoma";
+	color:#E6FFFF;
+	font-weight: bold;
+}
+
+#searchBox
+{	position:absolute;
+	right:5px;
+	top:5px;
+	border:0px;
+	padding:2px;
+	float:right;
+	margin-right:20px;
+	min-width:160px;
+	max-width:218px;
+	height:45px;
+	background-color: red;
+	
+}
+/*************!!!!!!!!!!!!!!NAVIGATION  BAR!!!!!!!!!!!!!!!!******************/
+.nav {
+	position:absolute;
+	top:112px;
+	padding:0px;
+	margin:0px;
+	border:0px;
+	min-width:100%;
+	background-color:#3ACABB;
+	text-align:center;
+	display:inline-block;/*added*/
+	z-index:5;
+}
+.nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow:none;
+    width:auto;
+    
+}
+.nav ul li {
+    float:left;
+    display:inline-block;
+    font-size: 1.2em;
+    width: 130px;
+}
+
+.nav ul li a:link, .nav ul li a:visited {
+    display: block;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #3ACABB;
+    text-align: center;
+    padding: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav ul li a:hover, .nav ul li a:active {
+    background-color: #2EA296;
+}
+/* SUB NAV BEGINS*/
+.nav ul li ul
+{	font-size: 0.9em;
+    display: none;
+    position:absolute;
+    padding-left:10px 0px;
+    margin:0px;
+    opacity: 0.75;
+
+}
+.nav ul li:hover ul 
+{
+    display: block;
+    height:20px;
+    
+    
+}
+.nav ul li ul a
+{
+	min-width: 90px;
+	display: block;
+
+} 
+
+.nav ul li:hover li
+{
+    float: none;
+    font-size: 1em;
+    display: block;
+}
+
+.nav ul li ul li a:hover 
+{
+    background: #2EA296;
+}

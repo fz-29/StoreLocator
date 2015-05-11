@@ -1,0 +1,40 @@
+div.footer{
+	position:relative;
+	min-height:40px;
+	max-height:45px;
+	padding: 5px 0px 2px 0px;
+	color:#ffffff;
+	width:100%;
+	margin:0px;
+	border:0px;
+	font-size: 14px;
+	text-align: center;
+	display: block;
+	background-color: #3ACABB;
+
+}
+
+div.footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+div.footer li {
+    display: inline;
+    min-width: 50px;
+}
+.footer a:link, .footer a:visited {
+   
+    width: 120px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #3ACABB;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.footer a:hover, .footer a:active {
+    color: #000000;
+}

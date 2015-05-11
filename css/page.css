@@ -1,0 +1,101 @@
+body 
+{	padding:0px;
+	margin:0px;
+	border:0px;
+	background-image:url(bgframepage.png);
+	background-attachment: fixed;
+}
+iframe
+{
+	position:absolute;
+	border-style: none;
+	border: 0px;
+	padding:0px;
+	margin:0px;
+	overflow-x:hidden;
+	left:0;
+}
+
+div.pageContainer{
+	margin-top: 0px;
+	margin-bottom: 0px;	
+	margin-left: auto;
+    margin-right: auto;
+	width: 80%;
+    min-height: 766px;
+    max-height: 100%;
+    background-color: #ffffff;
+    border: 1px solid black;
+    opacity:1;
+
+    
+}
+#intro
+{
+	color:black;
+
+}
+#intro::first-letter
+{
+	font-size: 1.5em;
+	color:red;
+}
+/*SEARCH PAGE CSS*/
+div.searchContainer{
+	position:absolute;
+	margin-left: auto;
+    margin-right: auto;
+	width: 80%;
+	top:10px;
+
+}
+div.searchContainer form {
+    
+    width:650px;
+    margin: 50px auto;
+}
+.inputkey
+{
+    height:30px;
+    font-size:14pt;
+    width:550px;
+}
+.gosearch
+{
+	border-width:3px 0px 0px 0px;
+	border-style: outset;
+	border-color: black;
+	color: white ;
+	background-color : black;
+	width : 40px;
+	height : 36px;
+}
+#myresults{
+	margin-top: 80px;
+	text-align: center;
+}
+table.searchresults
+{
+	margin: 5px 20px;
+}
+table.searchresults, table.searchresults th,table.searchresults td
+{
+	border:1px solid black;
+	border-collapse: collapse;
+	font-size: 1.1em;
+}
+table.searchresults th
+{
+	color:white;
+	background-color:#A300CC;
+}
+table.searchresults tr:nth-child(even)
+{
+	color:black;
+	background-color:#ECCAF5;
+}
+table.searchresults tr:nth-child(odd)
+{
+	color:black;
+	background-color:#FAE6FF;
+}

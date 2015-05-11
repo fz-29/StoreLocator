@@ -1,0 +1,30 @@
+body {
+		margin:0px;
+		padding:0px;
+		border:0px;
+		width:100%;
+		background-color: #40e0d0;
+}
+iframe {
+	
+	border-style:none;
+	border: 0px;
+	padding:0px;
+	margin:0px;
+	outline: none;
+	width:100%;
+}
+
+div #headerContainer
+{
+	overflow: hidden;
+	clear:left;	
+	height:137px;
+	width:100%;
+}
+#pageFrame
+{
+	position:relative;
+	top:139px;
+	width:100%;
+}
